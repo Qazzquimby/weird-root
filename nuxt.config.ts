@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
     '@nuxt/devtools',
+    'nuxt-vuefire',
   ],
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
@@ -33,6 +34,18 @@ export default defineNuxtConfig({
       routes: ['/'],
       ignore: ['/hi'],
     },
+  },
+  vuefire: {
+    auth: true,
+    config: {
+      apiKey: '',
+      authDomain: '',
+      projectId: '',
+      appId: '',
+    },
+  },
+  admin: {
+    serviceAccount: '',
   },
   app: {
     head: {
