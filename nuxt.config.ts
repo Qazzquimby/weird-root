@@ -38,14 +38,14 @@ export default defineNuxtConfig({
   vuefire: {
     auth: true,
     config: {
-      apiKey: '',
-      authDomain: '',
-      projectId: '',
-      appId: '',
+      apiKey: 'AIzaSyAROsyoNYrGLKCkrFlSg1QIEJNqZPkvJjI',
+      authDomain: 'localhost', // Don't know how to list multiple.
+      projectId: 'weird-root',
+      appId: '1079340551869',
     },
   },
   admin: {
-    serviceAccount: '',
+    serviceAccount: 'secret/serviceAccount.json',
   },
   app: {
     head: {
