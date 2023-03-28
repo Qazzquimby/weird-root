@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
     '@nuxt/devtools',
-    'nuxt-vuefire',
+    // 'nuxt-vuefire',
   ],
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
@@ -35,18 +35,18 @@ export default defineNuxtConfig({
       ignore: ['/hi'],
     },
   },
-  vuefire: {
-    auth: true,
-    config: {
-      apiKey: 'AIzaSyAROsyoNYrGLKCkrFlSg1QIEJNqZPkvJjI',
-      authDomain: 'localhost', // Don't know how to list multiple.
-      projectId: 'weird-root',
-      appId: '1079340551869',
-    },
-  },
-  admin: {
-    serviceAccount: 'secret/serviceAccount.json',
-  },
+  // vuefire: {
+  //   auth: true,
+  //   config: {
+  //     apiKey: 'AIzaSyAROsyoNYrGLKCkrFlSg1QIEJNqZPkvJjI',
+  //     authDomain: 'localhost', // Don't know how to list multiple.
+  //     projectId: 'weird-root',
+  //     appId: '1079340551869',
+  //   },
+  //   admin: {
+  //     serviceAccount: 'secret/serviceAccount.json',
+  //   },
+  // },
   app: {
     head: {
       viewport: 'width=device-width,initial-scale=1',
